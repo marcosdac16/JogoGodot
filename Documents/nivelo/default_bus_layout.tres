@@ -1,0 +1,14 @@
+[gd_resource type="AudioBusLayout" load_steps=3 format=3 uid="uid://cpdokt8r6vj3d"]
+
+[sub_resource type="AudioEffectAmplify" id="AudioEffectAmplify_mpubg"]
+resource_name = "Amplify"
+
+[sub_resource type="AudioEffectAmplify" id="AudioEffectAmplify_ba7ew"]
+resource_name = "Amplify"
+
+[resource]
+bus/0/volume_db = 0.464998
+bus/0/effect/0/effect = SubResource("AudioEffectAmplify_mpubg")
+bus/0/effect/0/enabled = true
+bus/0/effect/1/effect = SubResource("AudioEffectAmplify_ba7ew")
+bus/0/effect/1/enabled = true
